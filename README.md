@@ -1,5 +1,5 @@
 # AR-SR-recommendation
-- Association Rules and Sequential Rules for Session Based Recommendation supporting multi-item features.
+- Association Rules and Sequential Rules for Session Based Recommendation supporting multi-item features (All features should be discrete with finite set of possible values ie. we can't use numeric item price but instead you can use item price as cheap/normal/expensive, etc).
 - Python Implementation of the algorithms.
 - Original paper: Association Rules => [Mining Association Rules Between Sets of Items in Large Databases(SIGMOD 1993)](https://rakesh.agrawal-family.com/papers/sigmod93assoc.pdf) and Sequential Rules => [A Comparison of Frequent Pattern Techniques and a Deep Learning Method for Session-Based Recommendation(RecSys 2017)](http://ceur-ws.org/Vol-1922/paper10.pdf)
 - This code is based on [Evaluation of Session-based Recommendation Algorithms](https://arxiv.org/pdf/1803.09587) but adapted to support multi-item features other than ItemID.
